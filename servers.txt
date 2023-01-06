@@ -1,10 +1,20 @@
 server1.test.com
+user1 password1
 server2.test.com
+user2 password2
 server3.test.com
+user3 password3
 server4.test.com
+user4 password4
 server5.test.com
+user5 password5
 server6.test.com
+user6 password6
 server7.test.com
+user7 password7
 server8.test.com
+user8 password8
 server9.test.com
+user9 password9
 server10.test.com
+user10 password10
