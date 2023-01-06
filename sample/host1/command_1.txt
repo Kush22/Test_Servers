@@ -1,0 +1,6 @@
+    PID TTY          TIME CMD
+1918431 ?        00:03:11 systemd
+1918439 ?        00:00:00 (sd-pam)
+1919065 pts/1    00:00:00 bash
+1919385 pts/1    00:00:01 ssh
+1919386 pts/1    00:00:01 sss_ssh_knownho
