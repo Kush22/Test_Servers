@@ -1,0 +1,51 @@
+ib0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 4092
+        inet 10.20.0.25  netmask 255.255.0.0  broadcast 10.20.255.255
+        inet6 fe80::86d5:306b:7fc0:2840  prefixlen 64  scopeid 0x20<link>
+Infiniband hardware address can be incorrect! Please read BUGS section in ifconfig(8).
+        infiniband 00:00:01:BD:FE:80:00:00:00:00:00:00:00:00:00:00:00:00:00:00  txqueuelen 256  (InfiniBand)
+        RX packets 83941077  bytes 65704063890 (61.1 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 80029001  bytes 133721961199 (124.5 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.27.25  netmask 255.255.255.0  broadcast 192.168.27.255
+        inet6 fe80::a236:9fff:fe14:3b0f  prefixlen 64  scopeid 0x20<link>
+        ether a0:36:9f:14:3b:0f  txqueuelen 1000  (Ethernet)
+        RX packets 4302076977  bytes 4746202848305 (4.3 TiB)
+        RX errors 0  dropped 0  overruns 1921  frame 0
+        TX packets 4182068404  bytes 5148950625099 (4.6 TiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device memory 0xe1000000-e10fffff  
+
+lan1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether a0:36:9f:14:3b:0e  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device memory 0xe1100000-e11fffff  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 485506806  bytes 65916515606 (61.3 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 485506806  bytes 65916515606 (61.3 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 52:54:00:b8:89:bb  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0-nic: flags=4098<BROADCAST,MULTICAST>  mtu 1500
+        ether 52:54:00:b8:89:bb  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
